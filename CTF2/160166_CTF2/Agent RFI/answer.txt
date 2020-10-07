@@ -1,0 +1,7 @@
+For the remote file inclusion i had to upload a malicious file in form of a image.
+All i did was change the image extension from jpg to jpg.php so now i could write some php code into it.
+Once the malicious file was uploaded i got the confirmation that RFI was planted then skimming through agent RFI's bio got me the flag.
+
+Query to get the flag: ' oorr '1' = '1' uniunionon selselectect 1,bio,3,4,5,6,7,8,9,10,11,12,13,14 from student whewherere name='Agent RFI' #
+
+FLAG: cs628a{9e0467addeeb4a053759002448f8a211}

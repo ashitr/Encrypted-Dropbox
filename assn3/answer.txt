@@ -1,0 +1,78 @@
+# Put your answers below the corresponding question number.
+# Don't invent your own numbering system, stick to what we have provided.
+
+
+-----------------------------------------------------------------
+[1]
+Local IP addresses are:
+IP address : 10.0.2.2, MAC address = 04:0c:ce:d8:0f:fa and Manufacturer = Apple
+IP address : 10.0.2.3, MAC address = 8c:a9:82:50:f0:a6 and Manufacturer = Intel, 
+
+-----------------------------------------------------------------
+[2]
+The given network looks like a large corporation.
+Evidence: Since there are local addresses present so it's a local netwrok and the remaining traffic comes from just a single MAC address which is possible only in the case of a gateway device to the local network
+MAC of gateway: Apple_(00:26:08:e5:66:07)
+
+-----------------------------------------------------------------
+[3.a]
+dl.xs4all.nl
+
+-----------------------------------------------------------------
+[3.b]
+Passive connection
+
+-----------------------------------------------------------------
+[3.c]
+Based on the packet capture it seems that the major vulnerability of FTP protocol is that the data is not encrypted.
+
+-----------------------------------------------------------------
+[3.d]
+SSH File Transfer Protocol (SFTP) and Managed file transfer (MFT).
+
+-----------------------------------------------------------------
+[4.a]
+youtube.com
+
+-----------------------------------------------------------------
+[4.b]
+While HTTPS encrypts the entire HTTP request and response, the DNS resolution and connection setup can reveal other information, such as the full domain or subdomain and the originating IP address.
+Protection: 
+
+-----------------------------------------------------------------
+[4.c]
+Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+Key exchange algorithm : ECDHE_ECDSA
+Message authentication algorithm : SHA
+
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+Key exchange algorithm : ECDHE_RSA
+Message authentication algorithm : SHA
+
+Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+Key exchange algorithm : ECDHE_RSA
+Message authentication algorithm : SHA
+
+-----------------------------------------------------------------
+[4.d]
+
+
+-----------------------------------------------------------------
+[4.e]
+Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+
+-----------------------------------------------------------------
+[5.a]
+While HTTPS encrypts the entire HTTP request and response, the DNS resolution and connection setup can reveal other information, such as the full domain or subdomain and the originating IP address.
+The Facebook is managing the session through the cookies and they are not encrypted hence vulnerable.
+
+-----------------------------------------------------------------
+[5.b]
+Since the cookies aren't encrypted, anyone doing packet sniffing can get the cookies and impersonate the user.
+
+-----------------------------------------------------------------
+[5.c]
+
+-----------------------------------------------------------------
+[5.d]
+The user sent a bunch of image/gif and http requests and got an 200 OK response so basically browsed facebook for a while successfully.

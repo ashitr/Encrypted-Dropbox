@@ -1,0 +1,7 @@
+I had to install a few extensions on chrome in order to edit cookies and response headers and then after following the steps as follows which were given by the VIHS plateform i found the flag.
+
+Step 1: Create Cookie: admin(1) 
+Step 2: User agent: CS628A
+Step 3: referrer header subdomain : android 
+Step 4: DNT: 1
+Step 5: supercookie (X-UIDH = 1)

